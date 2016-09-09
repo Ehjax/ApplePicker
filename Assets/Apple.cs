@@ -5,9 +5,9 @@ public class Apple : MonoBehaviour {
 	public static float  bottomY = -20f;
 
 	// Use this for initialization
-	//void Start () {
+	void Start () {
 	
-	//}
+	}
 	
 	// Update is called once per frame
 	void Update () {
