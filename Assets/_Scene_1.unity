@@ -181,9 +181,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   applePrefab: {fileID: 127358, guid: 041ad1f37ce1645dbaaba1027c4186ab, type: 2}
-  speed: 10
+  speed: 20
   leftAndRightEdge: 30
-  chanceToChangeDirections: .0199999996
+  chanceToChangeDirections: .0500000007
   secondsBetweenAppleDrops: 1
 --- !u!1 &635132850
 GameObject:
@@ -375,11 +375,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11491068, guid: d7f01940a165244a1b0ed8ac30262aad, type: 2}
       propertyPath: speed
-      value: 10
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 11491068, guid: d7f01940a165244a1b0ed8ac30262aad, type: 2}
       propertyPath: chanceToChangeDirections
-      value: .0199999996
+      value: .0500000007
       objectReference: {fileID: 0}
     - target: {fileID: 11491068, guid: d7f01940a165244a1b0ed8ac30262aad, type: 2}
       propertyPath: applePrefab
