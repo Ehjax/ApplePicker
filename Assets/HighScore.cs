@@ -3,16 +3,16 @@ using System.Collections;
 
 public class HighScore : MonoBehaviour {
 	static public int score = 1000
-
-	
-	 void Awake() {
+		
+		
+	void Awake() {
 		//if the ApplePickerHighScore already exisits, read it
 		if (PlayerPrefs.HasKey("ApplePickerHighScore")) {
 			score = PlayerPrefs.GetInt ("ApplePickerHighScore");
 		}
 		//assign the high score to ApplePickerHighScore
 		PlayerPrefs.SetInt("ApplePickerHighScore", score);
-	
+		
 	}
 	
 	// Update is called once per frame
